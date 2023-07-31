@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script & family= Frank+Ruhl+Libre & family= Montserrat & display=swap');
+
+.titulo1{
+    background-color: rgb(231, 157, 157);
+    font-size: 2rem;
+    color: white;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+}
+.titulo2{
+    font-family: 'Montserrat', sans-serif; 
+    background-color: aquamarine;
+}
+.titulo3{
+    font-family: 'Montserrat', sans-serif;
+}
+.contenedo{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: transparent;
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+}
+button:hover{
+    background-color: black;
+}
+body{
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.table{
+    border-collapse: collapse;
+}
+.table td{
+    border: 1px solid;
+    text-align: center;
+}
+.table th{
+    background-color: green;
+    color: white;
+}
+.table td:hover{
+    background-color: lightseagreen;
+    color: white;
+}
+.td{
+    font-weight: bold;
+}
+caption{
+    font-family: 'Dancing Script', cursive; 
+}
